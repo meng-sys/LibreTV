@@ -7,7 +7,7 @@ const MAX_HISTORY_ITEMS = 5;
 // 密码保护配置
 const PASSWORD_CONFIG = {
     localStorageKey: 'passwordVerified',  // 存储验证状态的键名
-    verificationTTL: 90 * 24 * 60 * 60 * 1000,  // 验证有效期（90天，约3个月）
+    verificationTTL: 30 * 24 * 60 * 60 * 1000,  // 验证有效期（30天，约1个月）
 };
 
 // 网站信息配置
@@ -15,7 +15,7 @@ const SITE_CONFIG = {
     name: 'CGRunTV',
     url: 'https://libretv.is-an.org',
     description: '免费在线视频搜索与观看平台',
-    logo: 'https://images.icon-icons.com/38/PNG/512/retrotv_5520.png',
+    logo: 'https://png.yyzq.eu.org/thumbnails/dbd71d3b0b0353dc569bb15c496d950d.png',
     version: '1.0.3'
 };
 
